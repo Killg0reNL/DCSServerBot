@@ -26,7 +26,7 @@
 		"penalties": [
 			{ "event": "kill", "reason": "Killing a team member", "human": 30, "AI": 18, "action": "move_to_spec" },
 			{ "event": "collision_kill", "reason": "Killing a team member during a collision", "human": 20, "AI": 12 },
-			{ "event": "friendly_fire", "reason": "Friendly fire on a team member", "human": 12, "AI": 8 },
+			{ "event": "friendly_fire", "reason": "Friendly fire on a team member", "human": 12, "AI": 8,	"action": "message" },
 			{ "event": "collision_hit", "reason": "Colliding with a team member", "human": 5, "AI": 1 }
 		],
 		"exemptions": [
